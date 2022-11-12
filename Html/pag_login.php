@@ -43,7 +43,7 @@
           <p class="colorParag fontSizeBody paddingItens">
             Acesse o MyFreq aqui:
           </p>
-          <div
+          <form
             style="width: 22rem"
             class="input-group input-group-sm mb-4 m-auto"
           >
@@ -59,8 +59,8 @@
               aria-label="UserEmail"
               aria-describedby="basic-addon1"
             />
-          </div>
-          <div style="width: 22rem" class="input-group input-group-sm m-auto">
+        </form>
+          <form style="width: 22rem" class="input-group input-group-sm m-auto">
             <span
               class="input-group-text bg-primary text-white"
               id="basic-addon1"
@@ -73,7 +73,7 @@
               aria-label="UserSenha"
               aria-describedby="basic-addon1"
             />
-          </div>
+        </form>
           <a
             class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
             href=""
