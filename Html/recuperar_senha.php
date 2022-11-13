@@ -58,9 +58,15 @@
               aria-label="UserEmail"
               aria-describedby="basic-addon1"
             />
-            <button
-            class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
             
+            
+  
+            
+          </form>
+          <form action="">
+            <button
+              class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
+              
             >Enviar</button>
           </form>
         </div>
