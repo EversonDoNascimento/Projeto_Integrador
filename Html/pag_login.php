@@ -44,40 +44,46 @@
             Acesse o MyFreq aqui:
           </p>
            <form
-            style="width: 22rem"
-            class="input-group input-group-sm mb-4 m-auto"
+            action = "" method=""
            >
-            <span
-              class="input-group-text bg-primary text-white"
-              id="basic-addon1"
-              >Matrícula:</span
-            >
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Digite sua matrícula!"
-              aria-label="UserEmail"
-              aria-describedby="basic-addon1"
-            />
-         </form>
-         <form style="width: 22rem" class="input-group input-group-sm m-auto">
-            <span
-              style="height: 2rem"
-              class="input-group-text bg-primary text-white"
-              id="basic-addon1"
-              >Senha:</span
-            >
-            <input
-              style="height: 2rem"
-              type="password"
-              class="form-control"
-              placeholder="Digite sua senha!"
-              aria-label="UserSenha"
-              aria-describedby="basic-addon1"
-            />
-         </form>
-         <form>
+           <div style="width: 23rem" class="input-group input-group-sm mb-4 m-auto">
+              <span
+                  class="input-group-text bg-primary text-white"
+                  id="basic-addon1"
+                  >Matrícula:</span
+                >
+                <input
+                  name = "matricula"
+                  type="text"
+                  class="form-control"
+                  placeholder="Digite sua matrícula!"
+                  aria-label="UserEmail"
+                  aria-describedby="basic-addon1"
+                />
+
+           </div>
+           
+        
+          <div style="width: 23rem" class="input-group input-group-sm m-auto">
+                <span
+                  style="height: 2rem"
+                  class="input-group-text bg-primary text-white"
+                  id="basic-addon1"
+                  >Senha:</span
+                >
+                <input
+                  name = "senha"
+                  style="height: 2rem"
+                  type="password"
+                  class="form-control"
+                  placeholder="Digite sua senha!"
+                  aria-label="UserSenha"
+                  aria-describedby="basic-addon1"
+                />
+            </div>
           <button
+            type = "submit"
+            value ="enviar"
             class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
           
             >Entrar</button
