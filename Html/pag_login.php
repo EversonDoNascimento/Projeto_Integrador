@@ -60,7 +60,7 @@
               aria-describedby="basic-addon1"
             />
         </form>
-          <form style="width: 22rem" class="input-group input-group-sm m-auto">
+        <form style="width: 22rem" class="input-group input-group-sm m-auto">
             <span
               class="input-group-text bg-primary text-white"
               id="basic-addon1"
