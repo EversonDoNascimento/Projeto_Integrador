@@ -45,24 +45,23 @@
             class="input-group input-group-sm mb-4 m-auto"
           >
             <span
-              class="input-group-text bg-primary text-white"
+              style="height: 2rem"
+              class="input-group-text bg-primary text-white mt-4"
               id="basic-addon1"
               >Email:</span
             >
             <input
+              style="height: 2rem"
               type="text"
-              class="form-control"
+              class="form-control mt-4"
               placeholder="Digite seu email!"
               aria-label="UserEmail"
               aria-describedby="basic-addon1"
             />
-          </form>
-          <form>
-          <button
+            <button
             class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
-            href=""
-            >Enviar</button
-          >
+            
+            >Enviar</button>
           </form>
         </div>
       </div>

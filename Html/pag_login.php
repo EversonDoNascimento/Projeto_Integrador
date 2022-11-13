@@ -62,11 +62,13 @@
          </form>
          <form style="width: 22rem" class="input-group input-group-sm m-auto">
             <span
+              style="height: 2rem"
               class="input-group-text bg-primary text-white"
               id="basic-addon1"
               >Senha:</span
             >
             <input
+              style="height: 2rem"
               type="password"
               class="form-control"
               placeholder="Digite sua senha!"
