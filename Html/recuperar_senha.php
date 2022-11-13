@@ -57,12 +57,13 @@
               aria-describedby="basic-addon1"
             />
           </form>
-
-          <a
+          <form>
+          <button
             class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
             href=""
-            >Enviar</a
+            >Enviar</button
           >
+          </form>
         </div>
       </div>
     </section>
