@@ -40,7 +40,7 @@
         </div>
         <div class="col-lg bg-white Login paddingPagesUp">
           <p class="colorParag fontSizeBody paddingItens">Informe seu email:</p>
-          <div
+          <form
             style="width: 22rem"
             class="input-group input-group-sm mb-4 m-auto"
           >
@@ -56,7 +56,7 @@
               aria-label="UserEmail"
               aria-describedby="basic-addon1"
             />
-          </div>
+          </form>
 
           <a
             class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
