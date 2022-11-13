@@ -40,34 +40,29 @@
         </div>
         <div class="col-lg bg-white Login paddingPagesUp">
           <p class="colorParag fontSizeBody paddingItens">Informe seu email:</p>
-          <form
-            style="width: 22rem"
-            class="input-group input-group-sm mb-4 m-auto"
-          >
-            <span
-              style="height: 2rem"
-              class="input-group-text bg-primary text-white mt-4"
-              id="basic-addon1"
-              >Email:</span
-            >
-            <input
-              style="height: 2rem"
-              type="text"
-              class="form-control mt-4"
-              placeholder="Digite seu email!"
-              aria-label="UserEmail"
-              aria-describedby="basic-addon1"
-            />
-            
-            
-  
-            
-          </form>
-          <form action="">
+          <form action="" method="">
+            <div  style="width: 23rem"
+              class="input-group input-group-sm mb-4 m-auto">
+              <span
+                  style="height: 2rem"
+                  class="input-group-text bg-primary text-white mt-4"
+                  id="basic-addon1"
+                  >Email:</span
+                >
+                <input
+                  style="height: 2rem"
+                  type="text"
+                  class="form-control mt-4"
+                  placeholder="Digite seu email!"
+                  aria-label="UserEmail"
+                  aria-describedby="basic-addon1"
+                />
+              
+              
+            </div>
             <button
               class="btn btnLogin btn-outline-primary btnSize mt-4 paddingPagesDown"
-              
-            >Enviar</button>
+              >Enviar</button>
           </form>
         </div>
       </div>
