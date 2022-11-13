@@ -24,7 +24,7 @@
           class="col-lg-5 bg-primary align-items-center controlScreenLogin paddingPagesUp"
         >
           <p class="fontTextLeftHeader fontSizeHeader paddingItens">
-            Faça Login
+            Recuperar Senha
           </p>
           <p class="fontTextLeftBody fontSizeBody paddingItens">
             Por favor, nos informe o seu email de acesso ao MyFreq, logo em
