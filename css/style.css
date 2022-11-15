@@ -93,6 +93,10 @@
   margin-bottom: 7rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (min-width: 992px) {
   .paddingItens {
     padding-bottom: 2rem;
