@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil</title>
     <!-- Botstrap css -->
     <link
       rel="stylesheet"
@@ -13,11 +14,10 @@
     <link rel="stylesheet" href="../css/style.css" />
     <!--Normalize Css-->
     <link rel="stylesheet" href="../css/normalize.css" />
-    <title>Calendário</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand fontTextLeftHeader ms-1" href="calendario.php">MyFreq</a>
+      <a class="navbar-brand fontTextLeftHeader ms-1" href="#">MyFreq</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -46,13 +46,43 @@
                 >Perfil</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Sair</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
+    <section style="width: 50rem" class="container mt-5 sombra pt-3">
+      <h3 class="text-primary mb-5">Meu perfil</h3>
+      <div class="fotoPerfil bg-primary mx-auto d-block">
+        <img width="100%" class="" src="../images/user.png" alt="" />
+      </div>
+      <div class="container bg-primary mt-3 text-center text-white pt-2 pb-2">
+        <h4>Nome Usuário</h4>
+      </div>
+      <div class="container bg-white pb-4 ps-0">
+        <div class="mt-5 text-primary">
+          <span class="h4">Email:</span>
+          <span class="h5">"Email Usuário"</span>
+        </div>
+        <div class="mt-2 text-primary">
+          <span class="h4">Matrícula:</span>
+          <span class="h5">"Número Matrícula"</span>
+        </div>
+        <div class="text-center mt-5">
+          <span class="text-primary"
+            >Por favor, caso você deseje modificar sua senha clique no botão
+            logo abaixo "Alterar Senha".</span
+          >
+          <div class="mt-4" action="">
+            <a
+              href="alterar_senha.php"
+              class="btn btnLogin btn-outline-primary"
+            >
+              Alterar Senha
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!--Adicionando Bootstrap Js-->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
