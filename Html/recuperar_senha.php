@@ -33,7 +33,7 @@
           </p>
           <a
             class="btn btnInf btn-outline-light btnSize paddingPagesDown"
-            href="pag_login.php"
+            href="../index.php"
           >
             Voltar para o login
           </a>
