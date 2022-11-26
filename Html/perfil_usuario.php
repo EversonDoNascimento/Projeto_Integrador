@@ -17,7 +17,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand fontTextLeftHeader ms-1" href="#">MyFreq</a>
+      <a class="navbar-brand fontTextLeftHeader ms-1" href="criar_estagio.php">MyFreq</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -37,7 +37,7 @@
               <a
                 class="nav-link active text-white"
                 aria-current="page"
-                href="calendario.php"
+                href="criar_estagio.php"
                 >Home</a
               >
             </li>
