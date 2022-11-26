@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <!--Normalize Css-->
     <link rel="stylesheet" href="../css/normalize.css" />
-    <title>Criar Estágio</title>
+    <title>Pesquisar Estágio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">

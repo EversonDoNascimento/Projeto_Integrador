@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <!--Normalize Css-->
     <link rel="stylesheet" href="../css/normalize.css" />
-    <title>Atualizar Estágio</title>
+    <title>Pesquisar Estágio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -66,75 +66,50 @@
         <div class="col-12">
           <form action="">
             <div class="row">
-              <div>
-                <ul class="nav nav-pills nav-fill">
-                  <li class="nav-item">
-                    <a class="nav-link" href="criar_estagio.php"
-                      >Criar Estágio</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="atualizar_estagio.php"
-                      >Atualizar Estágio</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pesquisar_estagio.php">Pesquisar Estágio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Remover Estágio</a>
-                  </li>
-                </ul>
-              </div>
               <div class="col-12 mt-3">
-                <h2>Atualizar Estágio</h2>
+                <h2>Informações do Estágio</h2>
               </div>
             </div>
-            <div class="row g-3">
+            <div class="row g-3 mt-4">
               <div class="col-12">
-                <label for="nomeDoAluno" class="form-label"
-                  >Nome do Aluno(a)</label
-                >
-                <input
-                  type="text"
-                  name="nomeDoAluno"
-                  id="nomeDoAluno"
-                  class="form-control"
-                />
-                <label for="numeroDaMatricula" class="form-label"
-                  >Número da Matrícula</label
-                >
-                <input
-                  type="text"
-                  name="numeroDaMatricula"
-                  id="numeroDaMatricula"
-                  class="form-control"
-                />
-                <label for="localEstagio" class="form-label"
-                  >Local do Estágio</label
-                >
-                <input
-                  type="text"
-                  name="localEstagio"
-                  id="localEstagio"
-                  class="form-control"
-                />
+                <table class="table table-white">
+                  <thead>
+                    <tr>
+                      <th class="text-center" scope="col">#</th>
+                      <th class="text-center" scope="col">Nome do Aluno(a)</th>
+                      <th class="text-center" scope="col">
+                        Número da Matrícula
+                      </th>
+                      <th class="text-center" scope="col">Local do Estágio</th>
+                      <th class="text-center" scope="col">Data e Hora</th>
+                      <th class="text-center" scope="col">Descrição</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td class="text-center">João Da silva</td>
+                      <td class="text-center">2012ERBJ1239</td>
+                      <td class="text-center">
+                        Hospital Júlio Alves de Lira - Belo Jardim - PE
+                      </td>
+                      <td class="text-center">12/07/2022 20:00</td>
+                      <td class="text-center">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Iure minima sequi distinctio facere accusamus
+                        harum sint ullam voluptates voluptate voluptatibus.
+                        Dicta dolore inventore autem. Omnis ad quo hic dolorem
+                        assumenda!
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
+
               <div class="col-12">
-                <label for="dataEstagio" class="form-label"
-                  >Data e Hora do Estágio</label
+                <a href="pesquisar_estagio.php" class="btn btn-primary w-100 text-white bg-danger"
+                  >Voltar</a
                 >
-                <input
-                  type="datetime-local"
-                  name="dataEstágio"
-                  id="dataEstágio"
-                  class="form-control"
-                />
-              </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary w-100 text-white">
-                  <a href="" class="text-white">Buscar</a>
-                </button>
               </div>
             </div>
           </form>
