@@ -21,7 +21,9 @@
                 }
                 $_SESSION['nome']=$professor->getNome();
                 $_SESSION['foto']=$professor->getFoto();
-                header("Location: telaInicial.php");
+                $_SESSION['matricula']=$professor->getSiepe();
+                $_SESSION['email']=$professor->getEmail();
+                header("Location: perfil_usuario_docente.php");
             }
             else{
                 senhaInvalida();
