@@ -146,7 +146,7 @@
                 </button>
               </div>
               <div class="col-6">
-                <button type="submit" class="btn btn-primary w-100 text-white">
+                <button type="submit" class="btn btn-success w-100 text-white">
                   Salvar
                 </button>
               </div>

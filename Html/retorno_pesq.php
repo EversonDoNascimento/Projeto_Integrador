@@ -62,9 +62,9 @@
           <h1>Meus estágios</h1>
         </div>
       </div>
-      <div class="row my-2 mx-1 py-2 border rounded">
-        <div class="col-12">
-          <form action="">
+      <div class="row my-2 mx-1 py-2 border rounded container">
+        
+          
             <div class="row">
               <div class="col-12 mt-3">
                 <h2>Informações do Estágio</h2>
@@ -83,6 +83,7 @@
                       <th class="text-center" scope="col">Local do Estágio</th>
                       <th class="text-center" scope="col">Data e Hora</th>
                       <th class="text-center" scope="col">Descrição</th>
+                      <th class="text-center" scope="col">Frequência</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -100,6 +101,8 @@
                         harum sint ullam voluptates voluptate voluptatibus.
                         Dicta dolore inventore autem. Omnis ad quo hic dolorem
                         assumenda!
+                      <td class="text-center">
+                        Presente
                       </td>
                     </tr>
                   </tbody>
@@ -111,9 +114,9 @@
                   >Voltar</a
                 >
               </div>
-            </div>
-          </form>
-        </div>
+         
+         
+        
       </div>
     </section>
     <!--Adicionando Bootstrap Js-->
