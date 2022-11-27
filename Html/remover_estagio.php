@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/style.css" />
     <!--Normalize Css-->
     <link rel="stylesheet" href="../css/normalize.css" />
-    <title>Atualizar Estágio</title>
+    <title>Remover Estágio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -74,23 +74,27 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="atualizar_estagio.php"
+                    <a class="nav-link" href="atualizar_estagio.php"
                       >Atualizar Estágio</a
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="pesquisar_estagio.php">Pesquisar Estágio</a>
+                    <a class="nav-link" href="pesquisar_estagio.php"
+                      >Pesquisar Estágio</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="remover_estagio.php">Remover Estágio</a>
+                    <a class="nav-link active" href="remover_estagio.php">Remover Estágio</a>
                   </li>
                 </ul>
               </div>
               <div class="col-12 mt-3">
-                <h2>Atualizar Estágio</h2>
+                <h2>Remover Estágio</h2>
               </div>
             </div>
-            <p class="text-center text-danger pt-3 pb-3">Por favor, preencha todos os campos corretamente a fim de evitar possíveis erros!</p>
+            <p class="text-center text-primary pt-3 pb-3">
+              Por favor, caso você necessite de informações para encontrar o estágio que deseja remover, acesse a aba "Pesquisar Estágio" e clique na opção "Visualizar todos os estágios" a fim de encontrar o estágio que você deseja remover.
+            </p>
             <div class="row g-3">
               <div class="col-12">
                 <label for="nomeDoAluno" class="form-label"
@@ -133,10 +137,11 @@
                 />
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-success w-100 text-white">
-                  <a href="" class="text-white">Buscar</a>
+                <button type="submit" class="btn btn-danger w-100 text-white">
+                  <a href="" class="text-white">Remover Estágio</a>
                 </button>
               </div>
+              
             </div>
           </form>
         </div>

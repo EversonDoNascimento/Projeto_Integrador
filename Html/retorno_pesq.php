@@ -71,6 +71,7 @@
                 <h2>Informações do Estágio</h2>
               </div>
             </div>
+           
             <div class="row g-3 mt-4">
               <div class="col-12">
                 <table class="table table-white">

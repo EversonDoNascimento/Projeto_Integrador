@@ -82,7 +82,7 @@
                     <a class="nav-link active" href="pesquisar_estagio.php">Pesquisar Estágio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Remover Estágio</a>
+                    <a class="nav-link" href="remover_estagio.php">Remover Estágio</a>
                   </li>
                 </ul>
               </div>
@@ -90,6 +90,7 @@
                 <h2>Pesquisar Estágio</h2>
               </div>
             </div>
+            <p class="text-center text-primary pt-3 pb-3">Utilize a opção "Pesquisar" caso queira encontrar um estágio especifico, ou a opção "Visualizar todos os estágios" para listar todos os estágios cadastrados até o momento. </p>
             <div class="row g-3">
               <div class="col-12">
                 <label for="nomeDoAluno" class="form-label"
