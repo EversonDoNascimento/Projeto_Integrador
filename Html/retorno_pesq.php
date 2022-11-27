@@ -62,7 +62,8 @@
           <h1>Meus estágios</h1>
         </div>
       </div>
-      <div class="row my-2 mx-1 py-2 border rounded container">
+    
+      <div class="row my-2 mx-1 py-2 border rounded">
         
           
             <div class="row">
