@@ -139,9 +139,9 @@
                 
               </div>
               <div class="col-6">
-              <button type="submit" class="btn btn-success w-100 text-white">
-                  <a href="" class="text-white">Pesquisar</a>
-                </button>
+              
+                  <a href="" class="btn btn-success w-100 text-white">Pesquisar</a>
+                
               </div>
             </div>
           </form>

@@ -17,7 +17,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand fontTextLeftHeader ms-1" href="criar_estagio.html"
+      <a class="navbar-brand fontTextLeftHeader ms-1" href="criar_estagio.php"
         >MyFreq</a
       >
       <button
@@ -39,12 +39,12 @@
               <a
                 class="nav-link active text-white"
                 aria-current="page"
-                href="criar_estagio.html"
+                href="criar_estagio.php"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="perfil_usuario.html"
+              <a class="nav-link text-white" href="perfil_usuario.php"
                 >Perfil</a
               >
             </li>
@@ -126,7 +126,20 @@
                   A opção de frequência do aluno(a) fica logo abaixo.
                 </p>
                 <span>Formulário</span>
+               
                 <div class="ms-3">
+                <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="FreqCheck"
+                      id="FreqCheck3"
+                      checked
+                    />
+                    <label class="form-check-label" for="FreqCheck3">
+                      Não Alterar
+                    </label>
+                  </div>
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -144,7 +157,7 @@
                       type="radio"
                       name="FreqCheck"
                       id="FreqCheck2"
-                      checked
+                      
                     />
                     <label class="form-check-label" for="FreqCheck2">
                       Presente
@@ -161,6 +174,7 @@
                       Falta Justificada
                     </label>
                   </div>
+                 
                 </div>
               </div>
 
